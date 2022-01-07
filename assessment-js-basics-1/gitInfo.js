@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = 'Git is a program, it helps run things on the computer in the terminal and makes it more smooth. Git allows us to save snapshots of our projects with out making to many files.'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = 'Github is a website that will store our snapshots from git when told to do so. These snapshots can have small messages to let us now why we saved it or where we were at when saving.'
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@
 */
 
 //CODE HERE
-
+let gitInitDefinition = 'Gitinit initializes a local repository in the folder your working in.'
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+let gitCloneDefinition = 'Gitclone retrieves an entire repository from a hosted location via URL.'
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = 'Gitstatus shows the modified files in the present working directory that are ready or staged for the next commit.'
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +53,8 @@
 */
 
 //CODE HERE
-
+let gitAddDefinition = 'Gitadd adds a file as it currently looks to be staged for your next commit.'
+let gitAddCode = 'git add .'
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +65,8 @@
 */
 
 //CODE HERE
-
+let gitCommitDefinition = 'Gitcommit commits or takes a snapshot of what youre working on.'
+let gitCommitCode = 'git commit -m"This is the gitcommmit code"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +75,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = 'Gitpush will send your currently staged commits to a repository that will have been previously specified on github.'
