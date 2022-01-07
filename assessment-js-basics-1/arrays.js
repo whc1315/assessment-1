@@ -2,7 +2,7 @@
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
 const faveColors = ['red', 'green', 'black']
-
+let colorCopy = faveColors.slice(0);
 //CODE HERE
 
 //////////////////PROBLEM 2////////////////////
@@ -10,6 +10,8 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
+colorCopy.push('yellow');
+console.log(colorCopy)
 //////////////////PROBLEM 3////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -20,7 +22,8 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 
-
+let middleNums = numbers.slice(1,4);
+console.log(middleNums)
 //////////////////PROBLEM 4////////////////////
 /* 
   Create an empty array called 'answers'.
@@ -34,3 +37,11 @@ const numbers = [1, 2, 3, 4, 5]
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
+let answers = []
+for (let i = 0; i < bigOrSmallArray.length; i++){
+  if (bigOrSmallArray[i] > 100){
+    answers.push('big')
+  } else if (bigOrSmallArray[i] <= 100){
+    answers.push('small')
+  }
+}console.log(answers)
